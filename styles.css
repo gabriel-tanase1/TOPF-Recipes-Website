@@ -1,0 +1,24 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3F3FBF;
+    color:white;
+    font-size: 1.2em;
+}
+
+a{
+text-decoration: none;
+color:#EEC429;
+}
+a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.recipe-list{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+
+}.recipe-list a{
+    color:#EEC429;
+    font-weight: 500;
+}
