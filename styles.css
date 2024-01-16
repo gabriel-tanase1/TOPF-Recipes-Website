@@ -9,6 +9,13 @@ a{
 text-decoration: none;
 color:#EEC429;
 }
+.recipe-pic{
+    width: 150px;
+    height: auto;
+}
+.recipe-pic:hover{
+    box-shadow: 3px 3px 3px black;
+}
 a:hover{
     font-weight: bolder;
     cursor: pointer;
@@ -17,8 +24,29 @@ a:hover{
     list-style: none;
     margin:0px;
     padding:0px;
+    border:#EEC429 3px solid;
+    border-right: 0px;
+    border-radius: 3px;
+    width: 500px;
+}
 
-}.recipe-list a{
+.recipe-list a{
     color:#EEC429;
     font-weight: 500;
 }
+.recipe-item{
+    margin-bottom: 5px;
+}
+.recipe-item:hover{
+    font-weight: bolder;
+}
+
+.recipe-container{
+margin:5px;
+padding:5px;
+}
+fieldset{
+    width: 500px;
+}
+
+/* recipe pages styles */
