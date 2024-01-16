@@ -46,7 +46,20 @@ margin:5px;
 padding:5px;
 }
 fieldset{
-    width: 500px;
+width: 600px;
 }
 
 /* recipe pages styles */
+
+.recipe-name{
+    display: inline;
+    margin:5px;
+}
+.recipe-card{
+    border:#EEC429 5px solid;
+    border-right: 0px;
+    border-radius: 5px;
+    padding:10px;
+    margin:5px;
+    width: 700px;
+}
